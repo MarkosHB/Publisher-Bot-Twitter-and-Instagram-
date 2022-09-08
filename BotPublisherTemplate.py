@@ -30,10 +30,10 @@ phot_path = Path(phot_path)
 
 cl = Client()
 # Los settings permiten evitar el reiterado envio al email del codigo de confirmacion
-cl.load_settings('/tmp/dump.json') # Descomentado excepto en la primera ejecucion
+cl.load_settings('/tmp/dump.json') # Descomentado EXCEPTO en la primera ejecucion
 cl.login(ACCOUNT, PSWD)
-cl.get_timeline_feed()  # Descomentado excepto en la primera ejecucion
-#cl.dump_settings('/tmp/dump.json') # Comentado solo en la primera ejecucion
+cl.get_timeline_feed()  # Descomentado EXCEPTO en la primera ejecucion
+#cl.dump_settings('/tmp/dump.json') # Descomentado SOLO en la primera ejecucion
 
 print("Comenzando a publicar en Instagram...")
 
