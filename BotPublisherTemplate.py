@@ -10,7 +10,7 @@ import tweepy
 # Detalles de la publicacion comun
 IMAGE = "AQUI TU IMAGEN"    # Solo para Instagram
 ENLACE = "AQUI TU ENLACE"   # Opcional (quitar de abajo)
-DESCRIPCION = "AQUI TU TEXTO"
+DESCRIPCION = "AQUI TU TEXTO" + ENLACE
 
 # Informacion de la cuenta de Instagram
 ACCOUNT = "AQUI TU @"   
