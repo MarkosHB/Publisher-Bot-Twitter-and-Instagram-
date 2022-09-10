@@ -1,5 +1,5 @@
 # Publisher-Bot-Twitter-and-Instagram-
-### Automatitazion? Yes, please.
+### Automation? Yes, please.
 
 Este archivo template FUNCIONA y permite que una misma publicación se realice de manera simultánea tanto en tu cuenta de Instagram como de Twitter.  
 Solamente se permite el envío de una imagen para Instagram y ninguna para Twitter (work in progress) acompañado por una descripción. En Instagram también se crea una Story con la imagen y enlace (si proporcionado).  
